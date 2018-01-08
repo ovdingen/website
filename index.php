@@ -23,23 +23,9 @@
 </head>
 <body>
   
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">ovdingen</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#top">Home</a></li>
-        <li><a href="treinviewer.ovdingen.nl" target="blank">Trein Viewer</a></li>
-        <li><a href="/telefoon">Telefoon Service</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#top">Home</a></li>
-        <li><a href="http://treinviewer.ovdingen.nl" target="blank">Trein Viewer</a></li>
-        <li><a href="/telefoon">Telefoon Service</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+<?php
+include_once('nav.php')
+?>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -72,7 +58,7 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center teal-text"><i class="material-icons">train</i></h2>
-            <h5 class="center">arnu-viewer</h5>
+            <h5 class="center">Arnu Viewer</h5>
 
             <!-- <p class="light">Tekst</p>
 
@@ -84,12 +70,12 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center teal-text"><i class="material-icons">map</i></h2>
-            <h5 class="center">TreinViewer</h5>
+            <h5 class="center">Trein Viewer</h5>
 
             <p class="light">Bekijk in realtime de locatie van de treinen in Nederland.</p>
             
             <div class="center">
-              <a class="waves-effect waves-light btn" href="http://treinviewer.ovdingen.nl" target="blank">Bekijk</a>
+              <a class="waves-effect waves-light btn" href="https://treinviewer.ovdingen.nl" target="blank">Bekijk</a>
             </div>
           </div>
         </div>
@@ -98,10 +84,10 @@
             <h2 class="center teal-text"><i class="material-icons">local_phone</i></h2>
             <h5 class="center">Telefoon Service</h5>
 
-            <p class="light">(Even) geen internet op uw (mobiele) telefoon? Bel naar de Telefoon Service en krijg direct de vertrektijden van uw halte.</p>
+            <p class="light">(Even) geen internet op je (mobiele) telefoon? Bel naar de Telefoon Service en krijg direct de vertrektijden van uw halte.</p>
             
             <div class="center">
-              <a class="waves-effect waves-light btn" href="/telefoon">Bekijk</a>
+              <a class="waves-effect waves-light btn" href="telefoon.php">Bekijk</a>
             </div>
           </div>
         </div>
@@ -134,53 +120,6 @@
     </div>
   </div>
 
-  <footer class="page-footer teal">
-    <div class="container">
-      <!-- <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">ovdingen</h5>
-          <p class="grey-text text-lighten-4">Tekst</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Projecten</h5>
-          <ul>
-            <li><a class="white-text" href="#">Link 1</a></li>
-            <li><a class="white-text" href="#">Link 2</a></li>
-            <li><a class="white-text" href="#">Link 3</a></li>
-            <li><a class="white-text" href="#">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Github</h5>
-          <ul>
-            <li><a class="white-text" href="#">Link 1</a></li>
-            <li><a class="white-text" href="#">Link 2</a></li>
-            <li><a class="white-text" href="#">Link 3</a></li>
-            <li><a class="white-text" href="afbeeldingscredits.txt" target="blank">afbeeldingscredits</a></li>
-          </ul>
-        </div>
-      </div> -->
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made with <i class="fas fa-heart red-text"></i> by ovdingen
-      <div class="right">
-        <a class="white-text" href="https://github.com/ovdingen/website/blob/master/LICENSE" target="blank">GPL-3.0</a> | <a class="white-text" href="afbeeldingscredits.txt" target="blank">afbeeldingscredits</a>
-      </div>
-      </div>
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
-  <!-- 
-  Nee, bedankt. Ik heb geen fijne dag nodig!!!1
-  -->
-</html>
+<?php
+require_once('footer.php')
+?>
