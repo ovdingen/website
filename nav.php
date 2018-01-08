@@ -5,7 +5,7 @@
         <li><a href="https://ovdingen.nl">Home</a></li>
         <li><a href="https://treinviewer.ovdingen.nl" target="blank">Trein Viewer</a></li>
         <li><a href="https://ovdingen.nl/telefoon.php">Telefoon Service</a></li>
-        <a class="waves-effect waves-light btn" href="https://ovdingen.nl/doneer">Doneer</a>
+        <a class="waves-effect waves-light btn" href="https://ovdingen.nl/doneer.php">Doneer</a>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
