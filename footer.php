@@ -20,7 +20,7 @@
           <h5 class="white-text">Github</h5>
           <!-- <p class="grey-text text-lighten-4">Wil je meewerken aan de projecten van ovdingen? Kijk dan op onze github.</p> -->
           <ul>
-            <li><a class="white-text" href="afbeeldingscredits.txt" target="blank"><i class="fab fa-github"></i></a></li>
+            <li><a class="white-text" href="https://github.com/ovdingen" target="blank"><i class="fab fa-github"></i></a></li>
           </ul>
         </div>
       </div>
@@ -29,7 +29,7 @@
       <div class="container">
       Made with <i class="fas fa-heart red-text"></i> by ovdingen
       <div class="right">
-        <a class="white-text" href="https://github.com/ovdingen/website/blob/master/LICENSE" target="blank">GPL-3.0</a> | <a class="white-text" href="afbeeldingscredits.txt" target="blank">afbeeldingscredits</a>
+        <a class="white-text" href="https://github.com/ovdingen/website/blob/master/LICENSE" target="blank">GPL-3.0</a> | <a class="white-text" href="https://ovdingen.nl/afbeeldingscredits.txt" target="blank">afbeeldingscredits</a>
       </div>
       </div>
     </div>
