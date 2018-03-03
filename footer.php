@@ -10,15 +10,15 @@
         <div class="col l3 s12">
           <h5 class="white-text">Projecten</h5>
           <ul>
-            <li><a class="white-text" href="https://treinviewer.ovdingen.nl" target="blank">Trein Viewer</a></li>
-            <li><a class="white-text" href="https://ovdingen.nl/telefoon.php" target="blank">Telefoon Service</a></li>
+            <li><a class="white-text" href="https://ovdingen.nl/treinviewer/" target="blank">Trein Viewer</a></li>
+            <li><!--<a class="white-text" href="https://ovdingen.nl/telefoon.php" target="blank">-->Telefoon Service<!--</a>--></li>
             <!-- <li><a class="white-text" href="#">Link 3</a></li>
             <li><a class="white-text" href="#">Link 4</a></li> -->
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Github</h5>
-          <!-- <p class="grey-text text-lighten-4">Wil je meewerken aan de projecten van ovdingen? Kijk dan op onze github.</p> -->
+          <h5 class="white-text">Meewerken?</h5>
+          <p class="grey-text text-lighten-4">Kijk dan op onze github.</p>
           <ul>
             <li><a class="white-text" href="https://github.com/ovdingen" target="blank"><i class="fab fa-github"></i></a></li>
           </ul>

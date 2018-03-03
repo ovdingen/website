@@ -1,3 +1,4 @@
+<?php include_once('include/config.php') ?>
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -23,9 +24,7 @@
 </head>
 <body>
   
-<?php
-include_once('nav.php')
-?>
+<?php include_once('nav.php') ?>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -85,10 +84,11 @@ include_once('nav.php')
             <h5 class="center">Telefoon Service</h5>
 
             <p class="light">(Even) geen internet op je (mobiele) telefoon? Bel naar de Telefoon Service en krijg direct de vertrektijden van uw halte.</p>
+            <p class="light">Tijdelijk buiten gebruik. Excuses voor het ongemak.</p>
             
-            <div class="center">
+            <!-- <div class="center">
               <a class="waves-effect waves-light btn" href="telefoon.php">Bekijk</a>
-            </div>
+            </div> -->
           </div>
         </div>
 
@@ -105,21 +105,21 @@ include_once('nav.php')
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Contact</h4>
-          <div class="col s12 m12 l9">
-          <p class="left-align light">Voor vragen over ons, kan je een mailtje sturen naar <a href="mailto:contact@ovdingen.nl" target="blank">contact@ovdingen.nl</a> of join onze discord server.</p>
-          <p class="center-align light"><a class="btn-floating btn-large" href="https://github.com/ovdingen" target="blank"><i class="fab fa-github"></i></a> <a class="btn-floating btn-large" href="https://instagram.com/ovdingen" target="blank"><i class="fab fa-instagram"></i></a>
+          <div class="col s12">
+          <p class="center-align light">Voor vragen over ons, kan je een mailtje sturen naar <a href="mailto:contact@ovdingen.nl" target="blank">contact@ovdingen.nl</a> of join onze discord server.</p>
+          <p class="center-align light"><a class="btn-floating btn-large" href="https://github.com/ovdingen" target="blank"><i class="fab fa-github"></i></a> <a class="btn-floating btn-large" href="https://instagram.com/ovdingen" target="blank"><i class="fab fa-instagram"></i></a> <a class="btn-floating btn-large" href="https://discordapp.com/invite/FcMHsR" target="blank"><i class="fab fa-discord"></i></a>
+            <h4>Instagram</h4>
+            <?php include_once('instagram.php') ?>
           </div>
-          <div class="hide-on-med-and-down">
+          <!-- <div class="hide-on-med-and-down">
             <div class="col s3">
             <iframe src="https://discordapp.com/widget?id=391999440212328448&theme=light" width="100%" height="300" allowtransparency="true" frameborder="0"></iframe>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
     </div>
   </div>
 
-<?php
-require_once('footer.php')
-?>
+<?php include_once('footer.php') ?>

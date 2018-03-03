@@ -63,5 +63,5 @@ include_once('nav.php')
   </div>
 
 <?php
-require_once('footer.php')
+include_once('footer.php')
 ?>

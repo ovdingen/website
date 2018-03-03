@@ -1,0 +1,7 @@
+<?php
+//Instagram
+$instagram_uid="id"; //Instagram ID
+$access_token="token"; //Instagram API Access token
+//Documentatie op https://www.instagram.com/developer/authentication/
+
+?>
