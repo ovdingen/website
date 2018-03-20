@@ -8,7 +8,7 @@ $json_link.="access_token=$access_token&count=3";
 $json = file_get_contents($json_link);
 $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
 
-$returnContent = "";
+$returncontent = "";
 
 foreach ($obj['data'] as $post) {
      
@@ -31,6 +31,6 @@ foreach ($obj['data'] as $post) {
     $returncontent .= "</p>";
     $returncontent .= "</div>";
 }
-return $returnContent;
+return $returncontent;
 }
 ?>
