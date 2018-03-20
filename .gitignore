@@ -2,3 +2,5 @@
 .DS_Store
 ovdingen-site.sublime-workspace
 include/config.php
+vendor/
+
