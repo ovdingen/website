@@ -1,6 +1,6 @@
-
 .DS_Store
 ovdingen-site.sublime-workspace
 include/config.php
+ns-vt/
 vendor/
 .idea/
