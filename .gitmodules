@@ -1,3 +1,6 @@
 [submodule "templates/shared"]
 	path = templates/shared
 	url = https://github.com/ovdingen/shared-templates
+[submodule "ns-vt"]
+	path = ns-vt
+	url = https://github.com/ovdingen/ns-vt
